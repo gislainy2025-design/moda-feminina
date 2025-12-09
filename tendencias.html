@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tendências Femininas</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .tendencias {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+            padding: 20px;
+        }
+
+        .card-tendencia {
+            background: #fff;
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .card-tendencia:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .card-tendencia img {
+            width: 100%;
+            height: 270px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .titulo-tendencia {
+            font-size: 18px;
+            color: #d14b75;
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+<header>
+    <h1>Tendências da Moda Feminina</h1>
+</header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="historia.html">História</a>
+    <a href="colecoes.html">Coleções</a>
+    <a href="loja.html">Loja</a>
+    <a href="tendencias.html">Tendências</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+</nav>
+
+<section>
+    <h2>Tendências Atuais da Moda Feminina</h2>
+    <p>Veja abaixo as peças que estão dominando a moda feminina este ano. Estilo leve, romântico, moderno e delicado.</p>
+
+    <div class="tendencias">
+
+        <!-- Tendência 1 -->
+        <div class="card-tendencia">
+            <img src="https://down-br.img.susercontent.com/file/sg-11134201-7rfff-m3ndnnuf8pelfb_tn.webp" alt="Vestido Floral Moderno">
+            <h3 class="titulo-tendencia">Vestidos Florais Modernos</h3>
+            <p>Estampas florais delicadas com tons de rosa pastel estão super em alta.</p>
+        </div>
+
+        <!-- Tendência 2 -->
+        <div class="card-tendencia">
+            <img src="https://cdn.dooca.store/153665/products/xkrxwynzjknq9zchkcfasmmm3fifyjnxjexj.jpg?v=1717539737" alt="Saia Midi Plissada">
+            <h3 class="titulo-tendencia">Saia Midi Plissada</h3>
+            <p>Elegantes, femininas e versáteis, perfeitas para qualquer ocasião.</p>
+        </div>
+
+        <!-- Tendência 3 -->
+        <div class="card-tendencia">
+            <img src="https://cdn.vnda.com.br/2000x/samiratrends/2025/04/03/11_50_00_895_b0b56d9398cf558839398a7c42d84044.jpg?v=1743691800" alt="Blusas com Babados">
+            <h3 class="titulo-tendencia">Blusas com Babados</h3>
+            <p>Peças românticas com movimento suave e detalhes delicados.</p>
+        </div>
+
+        <!-- Tendência 4 -->
+        <div class="card-tendencia">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD3F791WcTMS7HvKXxYpqdP289Wr0oNHbxAQ&s" alt="Conjuntos Femininos Rosé">
+            <h3 class="titulo-tendencia">Conjuntos Rosé</h3>
+            <p>Conjuntos minimalistas na cor rosé são uma das maiores tendências deste ano.</p>
+        </div>
+
+        <!-- Tendência 5 -->
+        <div class="card-tendencia">
+            <img src="https://images.tcdn.com.br/img/img_prod/1380328/casaco_feminino_tricot_3d_81_3_077d3472b4ea82c90634df2031d19969.jpg" alt="Casacos de Tricô Delicado">
+            <h3 class="titulo-tendencia">Tricô Delicado</h3>
+            <p>Casacos e blusas de tricô macio com tons suaves e femininos.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>© 2025 Moda Feminina</footer>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* grade de produtos */
+        .produtos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            padding: 20px;
+        }
+
+        .produto {
+            background: #fff;
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .produto:hover {
+            transform: scale(1.04);
+            box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+        }
+
+        .produto img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .preco {
+            color: #d14b75;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        button {
+            background: #ffb6c1;
+            border: none;
+            padding: 10px 15px;
+            margin-top: 10px;
+            border-radius: 8px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #ff7fa7;
+        }
+    </style>
+</head>
+
+<body>
+<header><h1>Nossa Loja</h1></header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="historia.html">História</a>
+    <a href="colecoes.html">Coleções</a>
+    <a href="loja.html">Loja</a>
+    <a href="tendencias.html">Tendências</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+</nav>
+
+<section>
+    <h2>Produtos em Destaque</h2>
+
+    <div class="produtos">
+
+        <!-- Produto 1 -->
+        <div class="produto">
+            <img src="https://ae01.alicdn.com/kf/Sd9370451ce7844e498ec66957322aa94s.jpg_960x960.jpg" alt="Vestido Floral Rosé">
+            <h3>Vestido Floral Rosé</h3>
+            <p class="preco">R$ 199,90</p>
+            <button>Comprar</button>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="produto">
+            <img src="https://ae01.alicdn.com/kf/S7a6d889b5cd54331b20fe34a112201a2v.jpg" alt="Blusa de Renda Delicada">
+            <h3>Blusa de Renda Delicada</h3>
+            <p class="preco">R$ 129,90</p>
+            <button>Comprar</button>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="produto">
+            <img src="https://a-static.mlcdn.com.br/420x420/saia-mini-plissada-rosa-de-cintura-alta-para-mulheres-estilo-coreano-kawaii-escola-japonesa-saia-others/aliexpress/203546161/534aacb37a667d6eb92d54a6b74c2004.jpeg" alt="Saia Midi Plissada Rosa">
+            <h3>Saia Midi Plissada Rosa</h3>
+            <p class="preco">R$ 159,90</p>
+            <button>Comprar</button>
+        </div>
+
+        <!-- Produto 4 -->
+        <div class="produto">
+            <img src="https://i.pinimg.com/736x/64/a5/9b/64a59b05b321fb019b407ffc840b7dd8.jpg" alt="Conjunto Feminino Casual">
+            <h3>Conjunto Feminina Casual</h3>
+            <p class="preco">R$ 249,90</p>
+            <button>Comprar</button>
+        </div>
+
+        <!-- Produto 5 -->
+        <div class="produto">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv49ovhR5da20DN6i28n0IZsQliK1RlkRGxg&s" alt="Casaco de Inverno">
+            <h3>Casaco Rosa Pastel</h3>
+            <p class="preco">R$ 299,90</p>
+            <button>Comprar</button>
+        </div>
+
+        <!-- Produto 6 -->
+        <div class="produto">
+            <img src="https://img.lazcdn.com/g/p/284b36e7b042b3ec012b0fd74cbb6855.jpg_960x960q80.jpg_.webp" alt="Macacão Feminino Elegante">
+            <h3>Macacão Elegante Rosé</h3>
+            <p class="preco">R$ 219,90</p>
+            <button>Comprar</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>© 2025 Moda Feminina</footer>
+</body>
+</html>
